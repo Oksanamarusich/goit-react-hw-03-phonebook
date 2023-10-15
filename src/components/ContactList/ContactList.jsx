@@ -8,7 +8,7 @@ export const ContactList = ({ contacts, onDelete }) => {
         {contacts.map(({id, name, number}) => (
             <List key={id}>
                 <ListItem><p>{name}: {number}</p>
-                    <Button type="button" onClick={() => onDelete(id)}><FaTrashAlt/></Button>
+                    <Button type="button" onClick={() => onDelete(id)}><FaTrashAlt color= "#808080"/></Button>
                 </ListItem>
             </List>))}
     </Container>

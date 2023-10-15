@@ -20,11 +20,13 @@ display: flex;
 gap: 10px;
 margin-bottom: 10px;
 
+color: ${prop => prop.theme.colors.dark};
+
 
 `
 
 export const Button = styled.button`
 border: transparent;
-background-color: white;
+background-color: #ADD8E6;
 cursor:pointer;
 `

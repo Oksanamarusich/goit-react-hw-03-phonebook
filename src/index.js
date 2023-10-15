@@ -6,9 +6,9 @@ import { GlobalStyle } from './components/GlobalStyle';
 
 const theme = {
   colors: {
-    gray: '#9e9e9e',
+    gray: '#D3D3D3',
     light: '#f2f2f2',
-    dark: '#212121',
+    dark: '#808080',
     error: '#D21404',
   },
   shadows: {

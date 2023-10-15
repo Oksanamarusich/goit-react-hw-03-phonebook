@@ -10,6 +10,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #ADD8E6;
 }
 
 code {
@@ -29,8 +30,6 @@ h1,h2{
   text-align: center;
 
   text-transform: uppercase;
-  color: dark;
-
+  color: #333333;
 }
-
 `;

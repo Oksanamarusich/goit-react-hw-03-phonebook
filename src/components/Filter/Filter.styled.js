@@ -23,7 +23,7 @@ padding: 8px;
 
 width: 320px;
 
-border: 1px solid ${prop => prop.theme.colors.dark};
+border: 1px solid ${prop => prop.theme.colors.gray};
   outline: 0;
   border-radius: 4px;
 

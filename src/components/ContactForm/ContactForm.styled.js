@@ -11,7 +11,8 @@ padding: 40px;
 width: 400px;
 height: 400px;
 
-border: 1px solid ${prop => prop.theme.colors.dark};
+background-color:${prop => prop.theme.colors.light};
+border: 1px solid ${prop => prop.theme.colors.gray}; 
 border-radius: 4px;
 &:hover{
   border:0;
@@ -32,9 +33,10 @@ margin-top: 30px;
 width:180px;
 height: 40px;
 
-border: 1px solid ${prop => prop.theme.colors.dark};
+border: 1px solid ${prop => prop.theme.colors.gray};
 border-radius: 4px;
 background-color: white;
+color:${prop => prop.theme.colors.dark};
 cursor:pointer;
 
  &:hover{
@@ -47,7 +49,7 @@ export const StyledField = styled(Field)`
 padding: 8px;
 max-width: 100%;
 
-border: 1px solid ${prop => prop.theme.colors.dark};
+border: 1px solid ${prop => prop.theme.colors.gray};
   outline: 0;
   border-radius: 4px;
 
